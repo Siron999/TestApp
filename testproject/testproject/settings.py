@@ -131,10 +131,10 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'sirontest',
+        'NAME': 'testdb',
         'USER': 'postgres',
-        'PASSWORD': 'password123',
-        'HOST': 'siron-testdb.cvk2sk8uer76.us-east-1.rds.amazonaws.com',
+        'PASSWORD': 'postgres',
+        'HOST': 'database-1.cdsoog4k6hwi.us-east-1.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
